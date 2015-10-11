@@ -1,5 +1,6 @@
 {
   "name": "periscope-participant-colors",
+  "version": "0.0.0",
   "description": "Simple module to get a periscope participant color",
   "main": "index.js",
   "scripts": {
