@@ -1,17 +1,17 @@
 {
   "name": "periscope-participant-colors",
-  "version": "0.0.0",
   "description": "Simple module to get a periscope participant color",
   "main": "index.js",
   "scripts": {
     "test": "tap test.js",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Victor Jolissaint",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vjo/periscope-participant-colors.git"
+    "url": "https://github.com/vjo/periscope-participant-colors.git"
   },
   "keywords": [
     "periscope",
@@ -25,7 +25,8 @@
   "devDependencies": {
     "commitizen": "^1.0.5",
     "cz-conventional-changelog": "1.1.0",
-    "tap": "^2.1.1"
+    "tap": "^2.1.1",
+    "semantic-release": "^4.3.5"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
