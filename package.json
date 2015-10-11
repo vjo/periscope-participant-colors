@@ -1,0 +1,27 @@
+{
+  "name": "periscope-participant-colors",
+  "version": "0.0.0",
+  "description": "Simple module to get a periscope participant color",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "author": "Victor Jolissaint",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjo/periscope-participant-colors.git"
+  },
+  "keywords": [
+    "periscope",
+    "periscopetv",
+    "periscope.tv"
+  ],
+  "bugs": {
+    "url": "https://github.com/vjo/periscope-participant-colors/issues"
+  },
+  "homepage": "https://github.com/vjo/periscope-participant-colors#readme",
+  "devDependencies": {
+    "tap": "^2.1.1"
+  }
+}
