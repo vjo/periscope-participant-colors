@@ -55,6 +55,11 @@ var PARTICIPANT_COLORS = [{
 }];
 
 var PeristreamParticipantColor = function PeristreamParticipantColor(index){
+
+    if (typeof index !== 'number' || index < 0) {
+        throw new Error('given index must be positive number');
+    }
+
     return PARTICIPANT_COLORS[(index - 1) % PARTICIPANT_COLORS.length];
 };
 
